@@ -2,6 +2,12 @@
 #define HOLBERTON_H
 #include <math.h> 
 
+typedef struct complex
+{
+    double re;
+    double im;
+} complex;
+
 void display_complex_number(complex c);
 complex conjugate(complex c);
 double modulus(complex c);
