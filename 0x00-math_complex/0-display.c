@@ -4,7 +4,7 @@
 /**
  * display_complex_number - displays the complex numbers
  * followed by a new line.
- * @c: struct 
+ * @c: struct
  * Return: nothing.
  */
 
