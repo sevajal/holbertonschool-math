@@ -11,10 +11,6 @@
 void display_complex_number(complex c)
 {
   char operation;
-  int intre, intim;
-  
-  intim = c.im;
-  intre = c.re;
   
     if (c.im < 0)
     {
@@ -29,11 +25,9 @@ void display_complex_number(complex c)
     
     if (c.im == 0)
         printf("%.0f\n", c.re);
-    if (c.im != 0)
+	else if (c.im != 0)
 	{
-    	if (c.im - intim || c.re - intre)
-        	printf("%.1f %c %.1fi\n", c.re, operation, c.im);
-      	else if (c.im == 1)
+    	if (c.im == 1)
         	printf("%.0f %c i\n", c.re, operation);
       	else
         	printf("%.0f %c %.0fi\n", c.re, operation, c.im);
