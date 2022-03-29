@@ -3,10 +3,10 @@
 
 /**
  * division -  performs the division operation to complex numbers.
- * @c1: struct first complex number
- * @c2: struct second complex number
- * @c3: struct result division
- * Return:  the division.
+ * @c1: struct first complex number.
+ * @c2: struct second complex number.
+ * @c3: struct result division.
+ * Return: the division.
  */
 
 void division(complex c1, complex c2, complex *c3)
